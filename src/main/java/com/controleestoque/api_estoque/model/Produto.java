@@ -43,7 +43,7 @@ public class Produto {
     public BigDecimal getPreco() {return preco;}
     public void setPreco(BigDecimal preco) {this.preco = preco;}
     public Estoque getEstoque() {return estoque;}
-    public void setPreco(Estoque estoque) {this.estoque = estoque;}
+    public void setEstoque(Estoque estoque) {this.estoque = estoque;}
     public Categoria getCategoria() {return categoria;}
     public void setCategoria(Categoria categoria) {this.categoria = categoria;}
     public Set<Fornecedor> getFornecedores() {return fornecedores;}
